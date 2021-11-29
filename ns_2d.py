@@ -177,4 +177,4 @@ if __name__=='__main__':
         t1 = default_timer()
         print(j, c, t1-t0)
     
-    scipy.io.savemat(arg.name, mdict={'a': a.cpu().numpy(), 'u': u.cpu().numpy(), 't': sol_t.cpu().numpy()})
+    scipy.io.savemat(args.name, mdict={'a': a.cpu().numpy(), 'u': u.cpu().numpy(), 't': sol_t.cpu().numpy()})
